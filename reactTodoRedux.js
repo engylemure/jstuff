@@ -77,7 +77,8 @@ const Todo = ({
     );
 
     const TodoList = ({
-        todos
+        todos,
+        onTodoClick
     }) => (
         <ul>
             {todos.map(todo =>
